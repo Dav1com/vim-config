@@ -5,7 +5,7 @@ set nowrap
 set mouse=a
 set termguicolors
 set background=dark
-"colorscheme zellner
+colorscheme solarized8
 
 " identation
 set tabstop=4
@@ -20,9 +20,11 @@ set smartcase
 " spell check
 set spelllang=en,es
 
-" movement remap
+" movement maps
 noremap ñ l
 noremap l k
 noremap k j
 noremap j h
+noremap <A-j> ^
+noremap <A-ñ> $
 
