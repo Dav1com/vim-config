@@ -21,10 +21,6 @@ set smartcase
 set spelllang=en,es
 
 " movement maps
-noremap ñ l
-noremap l k
-noremap k j
-noremap j h
 noremap <A-j> ^
 noremap <A-ñ> $
 
